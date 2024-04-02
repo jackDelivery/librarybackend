@@ -24,7 +24,7 @@ mongoose.connect(process.env.mongoURI, {
 // Models
 const User = require('./models/User');
 const Books = require('./models/Books');
-const Requests = require('./models/requests');
+const Requests = require('./models/Requests');
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
